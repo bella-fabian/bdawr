@@ -1,0 +1,22 @@
+---
+title: "Expectations"
+author: "Isabella Fabian"
+date: "10 6 2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# My Expectations for this Class  
+I expect to gain a basic understanding of how to use R and build up on that with data analysis. I also expect to learn a lot about Big Data Analysis and gain an understanding of current research and after this course, I will hopefully be able to understand papers on Big Data Analysis on a methodological level.  
+  
+**To summarize:** 
+  
+*   basic understanding of R  
+*   performing data analysis in R  
+*   gain a methodological understanding of Big Data Analysis  
+  
+![](/home/isabella/Schreibtisch/Uni/IT/Big Data Analysis with R/Big Data Analysis with R/big-data-analysis-flat-concept-600w-652116691.jpg)
