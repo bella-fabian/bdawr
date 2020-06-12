@@ -19,4 +19,4 @@ I expect to gain a basic understanding of how to use R and build up on that with
 *   performing data analysis in R  
 *   gain a methodological understanding of Big Data Analysis  
   
-![](/home/isabella/Schreibtisch/Uni/IT/Big Data Analysis with R/Big Data Analysis with R/big-data-analysis-flat-concept-600w-652116691.jpg)
+![](/home/isabella/Schreibtisch/Uni/IT/Big Data Analysis with R/Big Data Analysis with R/Assignments/First Assignment/big-data-analysis-flat-concept-600w-652116691.jpg)
