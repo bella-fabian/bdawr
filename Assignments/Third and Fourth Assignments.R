@@ -26,6 +26,6 @@ ches_2017_modified_tidy
 
 publishers_sep_state <- publishers %>% # tidying publishers
 separate(city, into = c("city", "state"), 
-         sep = "", extra = "drop")  #separate cities and states
-publishers_sep_state
+         sep = ",", extra = "drop")  #separate cities and states
+publishers_sep_state 
 
