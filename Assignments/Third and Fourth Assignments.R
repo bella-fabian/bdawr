@@ -12,7 +12,7 @@ publishers <- read_excel("import_training_files/publishers_with_places.xlsx")
 
 
 library(tidyr)
-
+library(dplyr)
 spotify2018 # tidying spotify2018
 
 
@@ -23,7 +23,9 @@ ches_2017_modified_tidy <- ches_2017_modified %>% # tidying ches_2017_modified
 pivot_wider(names_from = variable, values_from = value) # making it wider so each variable can have its own column
 ches_2017_modified_tidy
 
-ches_2017_modified
 
-publishers # tidying publishers
+publishers_sep_state <- publishers %>% # tidying publishers
+separate(city, into = c("city", "state"), 
+         sep = "", extra = "drop")  #separate cities and states
+publishers_sep_state
 
